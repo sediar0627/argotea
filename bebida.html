@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -20,6 +20,7 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
+    <link href="css/bebida.css" rel="stylesheet">
 
 </head>
 
@@ -46,7 +47,7 @@
                     <span class="nav-link-text link_lista_bebidas">Lista de bebidas</span>
                 </div>
             </li>
-            
+
             <li class="nav-item">
                 <div class="nav-link">
                     <i class="fas fa-fw fa-heart link_lista_deseos"></i>
@@ -93,8 +94,8 @@
                     <form
                         class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                         <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="Busca tu bebida"
-                                aria-label="Search" aria-describedby="basic-addon2">
+                            <input type="text" class="form-control bg-light border-0 small"
+                                placeholder="Busca tu bebida" aria-label="Search" aria-describedby="basic-addon2">
                             <div class="input-group-append">
                                 <button class="btn btn-primary" type="button">
                                     <i class="fas fa-search fa-sm"></i>
@@ -135,8 +136,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
-                                <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
+                                <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -148,7 +148,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                   Cerrar sesión
+                                    Cerrar sesión
                                 </a>
                             </div>
                         </li>
@@ -162,167 +162,77 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Lista de bebidas</h1>
-
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Listado de Tés</h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Nombre</th>
-                                            <th>Precio</th>
-                                            <th>Calificacion</th>
-                                            <th>Acciones</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Té blanco</td>
-                                            <td>$ 3,900.00</td>
-                                            <td>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </td>
-                                            <td>
-                                                <i class="fa fa-eye" aria-hidden="true"></i>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Té verde</td>
-                                            <td>$ 3,700.00</td>
-                                            <td>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </td>
-                                            <td>
-                                                <i class="fa fa-eye" aria-hidden="true"></i>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Té negro</td>
-                                            <td>$ 6,200.00</td>
-                                            <td>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </td>
-                                            <td>
-                                                <i class="fa fa-eye" aria-hidden="true"></i>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>Té rojo</td>
-                                            <td>$ 5,750.00</td>
-                                            <td>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </td>
-                                            <td>
-                                                <i class="fa fa-eye" aria-hidden="true"></i>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>5</td>
-                                            <td>Té azul</td>
-                                            <td>$ 2,800.00</td>
-                                            <td>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </td>
-                                            <td>
-                                                <i class="fa fa-eye" aria-hidden="true"></i>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
+                    <div class="header-bebida">
+                        <h1 class="h3 mb-2 text-gray-800">Infusión de menta</h1>
+                        <i class="fas fa-fw fa-heart active"></i>
                     </div>
 
-                    <!-- DataTales Example -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Listado de Infusiónes</h6>
+                    <div class="container-img-description">
+                        <div>
+                            <img src="img/provicional/menta.jpg">
                         </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Nombre</th>
-                                            <th>Precio</th>
-                                            <th>Calificacion</th>
-                                            <th>Acciones</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Infusión de menta</td>
-                                            <td>$ 3,900.00</td>
-                                            <td>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </td>
-                                            <td>
-                                                <i class="fa fa-eye" aria-hidden="true"></i>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Infusión de jengibre</td>
-                                            <td>$ 3,700.00</td>
-                                            <td>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </td>
-                                            <td>
-                                                <i class="fa fa-eye" aria-hidden="true"></i>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Infusión de romero</td>
-                                            <td>$ 6,200.00</td>
-                                            <td>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </td>
-                                            <td>
-                                                <i class="fa fa-eye" aria-hidden="true"></i>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>Infusión de anís</td>
-                                            <td>$ 5,750.00</td>
-                                            <td>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </td>
-                                            <td>
-                                                <i class="fa fa-eye" aria-hidden="true"></i>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laboriosam nostrum
+                                enim
+                                laborum ipsum voluptatibus, ipsam impedit iste? Quis sed, pariatur in ipsam vero
+                                consequatur voluptatum velit temporibus assumenda fuga!
+                                Quidem nobis eos debitis animi praesentium tempora, facilis corrupti explicabo qui
+                                similique placeat odio repudiandae. Pariatur debitis dignissimos quae sed consequuntur
+                                amet vero? Sit eum atque cupiditate ducimus, officiis minus.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container-carrito">
+                        <h2>Carrito de compra</h2>
+                        <div class="container-carrito-container-select">
+                            <input type="number" min="0" pattern="^[0-9]+" class="form-control form-control-user"
+                                placeholder="Cantidad del producto">
+                            <!-- <input type="number" min="1" pattern="^[0-9]+" placeholder="Cantidad del producto"> -->
+                        </div>
+                        <div class="btn btn-primary">
+                            Agregar al carrito
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container-calificar">
+                        <h2>Calificar producto</h2>
+                        <div class="container-calificar-stars">
+                            <i class="fa fa-star calificacion" id="calificacion1" aria-hidden="true" data-index="1"></i>
+                            <i class="fa fa-star calificacion" id="calificacion2" aria-hidden="true" data-index="2"></i>
+                            <i class="fa fa-star calificacion" id="calificacion3" aria-hidden="true" data-index="3"></i>
+                            <i class="fa fa-star calificacion" id="calificacion4" aria-hidden="true" data-index="4"></i>
+                            <i class="fa fa-star calificacion" id="calificacion5" aria-hidden="true" data-index="5"></i>
+                        </div>
+                        <div class="btn btn-primary btn-limpiar-calificacion">
+                            Limpiar calificacion
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <h2>Promedio de calificacion del producto</h2>
+                        <div>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        
+                    </div>
+                    <hr>
+                    <div>
+                        <h2>Listado de comentarios</h2>
+                        <div>
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Basic Card Example</h6>
+                                </div>
+                                <div class="card-body">
+                                    The styling for this basic card example is created by using default Bootstrap
+                                    utility classes. By using utility classes, the style of the card component can be
+                                    easily modified with no need for any custom CSS!
+                                </div>
                             </div>
                         </div>
                     </div>
