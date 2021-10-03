@@ -1,0 +1,21 @@
+.cuerpo-tabla{
+    line-height: 80px;
+    text-align: center;
+}
+
+.contenedor-imagen-tabla{
+    text-align: center;
+}
+.imagen-tabla{
+    width: 130px;
+}
+.titulos-tabla{
+    text-align: center;
+    background: #d0e6c7
+}
+.btn-compra {
+  color: #fff;
+  background-color: #51732F;
+  border-color: #51732F;
+  margin-right: auto;
+} 
