@@ -15,7 +15,7 @@ h2 {
     cursor: pointer;
 }
 
-.header-bebida i.active {
+i.active {
     color: #51732F;
 }
 
@@ -46,16 +46,11 @@ h2 {
 }
 
 .form-control-user {
-    font-size: 0.8rem;
+    font-size: 1em;
     border-radius: 10rem;
-    padding: 1em;
     width: 70px;
+    padding-top: .5em;
 }
-
-/* .btn {
-    border-radius: 10rem;
-    width: 180px;
-} */
 
 .container-calificar{
     display: flex;
@@ -78,3 +73,43 @@ h2 {
     margin-left: 1em;
     margin-bottom: .4em;
 }
+
+.container-promedio-calificacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-listado-comentarios h2{
+    text-align: center;
+    margin: 1em 0;
+}
+
+.aling-right{
+    text-align: right !important;
+}
+
+.container-listado-tus-comentarios{
+    position: relative;
+}
+
+.container-listado-tus-comentarios i{
+    position: absolute;
+    right: 41px;
+    top: 20px;
+}
+
+.container-listado-tus-comentarios i, .card-header i{
+    font-size: 1.3em;
+}
+
+.container-listado-tus-comentarios i:hover, .card-header i:hover{
+    color: #51732F;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+.fa-cog{
+    margin-left: 1em !important;
+}
+
