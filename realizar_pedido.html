@@ -173,7 +173,7 @@
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
-                                        <tr>
+                                        <tr class="titulos-tabla">
                                             <th>Nombre</th>
                                             <th>Imagen</th>
                                             <th>Precio</th>
@@ -182,138 +182,81 @@
                                             <th>Acciones</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
+                                    <tbody class="cuerpo-tabla">
                                         <tr>
                                             <td>Té blanco</td>
-                                            <td>Img Té blanco</td>
+                                            <td class="contenedor-imagen-tabla">
+                                                <img class="imagen-tabla" src="img/Te4.jpg">
+                                            </td>
                                             <td>$ 3,900.00</td>
-                                            <td>2</td>
+                                            <td>
+                                                <input type="number" class="form-control form-control-user">
+                                            </td>
                                             <td>$ 7,800.00</td>
                                             <td>
-                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                                <i class="fa fa-trash-alt" aria-hidden="true"></i>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>Té verde</td>
-                                            <td>Img Té verde</td>
-                                            <td>$ 3,700.00</td>
-                                            <td>1</td>
+                                            <td class="contenedor-imagen-tabla">
+                                                <img class="imagen-tabla" src="img/Te2.jpg">
                                             <td>$ 3,700.00</td>
                                             <td>
-                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                                <input type="number" class="form-control form-control-user">
+                                            </td>
+                                            <td>$ 3,700.00</td>
+                                            <td>
+                                                <i class="fa fa-trash-alt" aria-hidden="true"></i>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>Té negro</td>
-                                            <td>Img Té negro</td>
+                                            <td class="contenedor-imagen-tabla">
+                                                <img class="imagen-tabla" src="img/Te3.jpg">
                                             <td>$ 6,200.00</td>
-                                            <<td>3</td>
+                                            <<td>
+                                                <input type="number" class="form-control form-control-user">
+                                            </td>
                                             <td>$ 18,600.00</td>
                                             <td>
-                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                                <i class="fa fa-trash-alt" aria-hidden="true"></i>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>Té rojo</td>
-                                            <td>Img Té rojo</td>
+                                            <td class="contenedor-imagen-tabla">
+                                                <img class="imagen-tabla" src="img/Te4.jpg">
                                             <td>$ 5,750.00</td>
-                                            <td>0</td>
+                                            <td>
+                                                <input type="number" class="form-control form-control-user">
+                                            </td>
                                             <td>$ 0.00</td>
                                             <td>
-                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                                <i class="fa fa-trash-alt" aria-hidden="true"></i>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>Té azul</td>
-                                            <td>Img Té Azul</td>
-                                            <td>$ 2,800.00</td>
-                                            <td>1</td>
+                                            <td class="contenedor-imagen-tabla">
+                                                <img class="imagen-tabla" src="img/Te5.jpg">
                                             <td>$ 2,800.00</td>
                                             <td>
-                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                                <input type="number" class="form-control form-control-user">
+                                            </td>
+                                            <td>$ 2,800.00</td>
+                                            <td>
+                                                <i class="fa fa-trash-alt" aria-hidden="true"></i>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
-                    </div>
-
-                    <!-- DataTales Example -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Listado de Infusiónes</h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Nombre</th>
-                                            <th>Precio</th>
-                                            <th>Calificacion</th>
-                                            <th>Acciones</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Infusión de menta</td>
-                                            <td>$ 3,900.00</td>
-                                            <td>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </td>
-                                            <td>
-                                                <i class="fa fa-eye" aria-hidden="true"></i>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Infusión de jengibre</td>
-                                            <td>$ 3,700.00</td>
-                                            <td>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </td>
-                                            <td>
-                                                <i class="fa fa-eye" aria-hidden="true"></i>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Infusión de romero</td>
-                                            <td>$ 6,200.00</td>
-                                            <td>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </td>
-                                            <td>
-                                                <i class="fa fa-eye" aria-hidden="true"></i>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>Infusión de anís</td>
-                                            <td>$ 5,750.00</td>
-                                            <td>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </td>
-                                            <td>
-                                                <i class="fa fa-eye" aria-hidden="true"></i>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                        <div class="btn btn-compra">
+                            Realizar compra
                         </div>
                     </div>
-
                 </div>
                 <!-- /.container-fluid -->
 
