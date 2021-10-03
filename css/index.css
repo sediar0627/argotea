@@ -6,14 +6,11 @@
     background: #51732F !important;
 }
 
-.nav-item{
-    cursor: pointer !important;
-}
-
 .nav-link{
     margin: 1em 0;
 }
 
 .nav-link span, .nav-link i {
     font-size: 1.2em !important;
+    cursor: pointer !important;
 }
