@@ -47,5 +47,12 @@ $(document).ready(function () {
         }
     });
 
+    $(".btn-limpiar-calificacion").click(function (e) {
+        localStorage.removeItem("calificacion-bebida-estrellas");
+        for (let i = 5; i >= 1; i--) {
+            $("#calificacion" + i).css({ "color": "#858796" });
+        }
+    })
+
 
 })

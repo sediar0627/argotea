@@ -95,9 +95,10 @@
                         class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                         <div class="input-group">
                             <input type="text" class="form-control bg-light border-0 small"
-                                placeholder="Busca tu bebida" aria-label="Search" aria-describedby="basic-addon2">
+                                placeholder="Busca tu bebida" aria-label="Search" aria-describedby="basic-addon2"
+                                id="txt-buscar-bebida">
                             <div class="input-group-append">
-                                <button class="btn btn-primary" type="button">
+                                <button class="btn btn-primary" type="button" id="btn-buscar-bebida">
                                     <i class="fas fa-search fa-sm"></i>
                                 </button>
                             </div>
@@ -106,30 +107,6 @@
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
-
-                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-                        <li class="nav-item dropdown no-arrow d-sm-none">
-                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-search fa-fw"></i>
-                            </a>
-                            <!-- Dropdown - Messages -->
-                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
-                                aria-labelledby="searchDropdown">
-                                <form class="form-inline mr-auto w-100 navbar-search">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control bg-light border-0 small"
-                                            placeholder="Busca tu bebida" aria-label="Search"
-                                            aria-describedby="basic-addon2">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-primary" type="button">
-                                                <i class="fas fa-search fa-sm"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </li>
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
@@ -210,28 +187,64 @@
                         </div>
                     </div>
                     <hr>
-                    <div>
+                    <div class="container-promedio-calificacion">
                         <h2>Promedio de calificacion del producto</h2>
                         <div>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
-                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star active" aria-hidden="true"></i>
+                            <i class="fa fa-star active" aria-hidden="true"></i>
+                            <i class="fa fa-star active" aria-hidden="true"></i>
+                            <i class="fa fa-star active" aria-hidden="true"></i>
                             <i class="fa fa-star" aria-hidden="true"></i>
                         </div>
-                        
                     </div>
                     <hr>
-                    <div>
+                    <div class="container-listado-comentarios">
                         <h2>Listado de comentarios</h2>
-                        <div>
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Basic Card Example</h6>
+                        <div class="card shadow mb-4">
+                            <div class="card-header py-3 container-listado-tus-comentarios">
+                                <h6 class="m-0 font-weight-bold text-primary">Tus comentarios</h6>
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-body">
+                                <div class="card shadow mb-4">
+                                    <div class="card-header py-3 aling-right">
+                                        <i class="fa fa-trash" aria-hidden="true"></i>
+                                        <i class="fa fa-cog" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, aspernatur
+                                        ullam! Ab, fuga! Soluta repellendus autem deserunt odio ipsum esse, perferendis
+                                        similique qui quo, neque voluptas non placeat. Eius, culpa?
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    The styling for this basic card example is created by using default Bootstrap
-                                    utility classes. By using utility classes, the style of the card component can be
-                                    easily modified with no need for any custom CSS!
+                            </div>
+                        </div>
+                        <div class="card shadow mb-4">
+                            <div class="card-header py-3">
+                                <h6 class="m-0 font-weight-bold text-primary">Comentarios de otros usuarios</h6>
+                            </div>
+                            <div class="card-body">
+                                <div class="card shadow mb-4">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-primary aling-right">Juan Pablo Jimenez
+                                        </h6>
+                                    </div>
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minus alias unde
+                                        sequi ipsam laudantium autem reprehenderit consectetur nesciunt reiciendis,
+                                        officia, rerum cum odit quia molestiae illo distinctio consequuntur eaque.
+                                    </div>
+                                </div>
+                                <div class="card shadow mb-4">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-primary aling-right">Juan Pablo Jimenez
+                                        </h6>
+                                    </div>
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minus alias unde
+                                        sequi ipsam laudantium autem reprehenderit consectetur nesciunt reiciendis,
+                                        officia, rerum cum odit quia molestiae illo distinctio consequuntur eaque.
+                                    </div>
                                 </div>
                             </div>
                         </div>
