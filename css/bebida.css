@@ -1,0 +1,80 @@
+h2 {
+    color: #51732F;
+}
+
+.header-bebida {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.header-bebida i {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.header-bebida i.active {
+    color: #51732F;
+}
+
+.container-img-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-img-description img {
+    width: 350px;
+}
+
+.container-img-description p {
+    padding: 1em;
+    text-align: center;
+}
+
+.container-carrito {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-carrito-container-select {
+    margin: 0 2em;
+}
+
+.form-control-user {
+    font-size: 0.8rem;
+    border-radius: 10rem;
+    padding: 1em;
+    width: 70px;
+}
+
+/* .btn {
+    border-radius: 10rem;
+    width: 180px;
+} */
+
+.container-calificar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-calificar div.container-calificar-stars{
+    margin-left: 1em;
+    padding-bottom: .4em;
+}
+
+.calificacion{
+    cursor: pointer;
+    margin: 0 .1em;
+}
+
+.btn-limpiar-calificacion{
+    margin-left: 1em;
+    margin-bottom: .4em;
+}
