@@ -1,0 +1,31 @@
+.bg-register-image {
+    background: url("../img/Te7.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.login-body {
+    height: 100vh !important;
+    display: grid;
+    align-items: center !important;
+}
+
+.bg-gradient-primary {
+    /* background: rgb(115, 70, 32);
+    background: linear-gradient(0deg, rgba(115, 70, 32, 1) 0%, rgba(115, 70, 45, 1) 40%, rgba(140, 96, 58, 1) 100%); */
+    background: rgb(52, 64, 27);
+    background: linear-gradient(0deg, rgba(52, 64, 27, 1) 0%, rgba(81, 115, 47, 1) 52%, rgba(97, 140, 55, 1) 87%);
+}
+
+.card-body, .bg-login-image {
+    height: 80vh !important;
+}
+
+.card-login {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+}

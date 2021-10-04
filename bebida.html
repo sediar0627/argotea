@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Dashboard</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/bebida.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-nav-bar sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">Argo Tea</div>
+            </a>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <div class="nav-link">
+                    <i class="fas fa-fw fa-coffee link_lista_bebidas"></i>
+                    <span class="nav-link-text link_lista_bebidas">Lista de bebidas</span>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <div class="nav-link">
+                    <i class="fas fa-fw fa-heart link_lista_deseos"></i>
+                    <span class="nav-link-text link_lista_deseos">Lista de deseos</span>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <div class="nav-link">
+                    <i class="fas fa-fw fa-credit-card link_realizar_pedido"></i>
+                    <span class="nav-link-text link_realizar_pedido">Realizar pedido</span>
+                </div>
+            </li>
+
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+            <!-- Nav Item - Tables -->
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="tables.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Tables</span></a>
+            </li> -->
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand bg-nav-home topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Search -->
+                    <form
+                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-light border-0 small"
+                                placeholder="Busca tu bebida" aria-label="Search" aria-describedby="basic-addon2"
+                                id="txt-buscar-bebida">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button" id="btn-buscar-bebida">
+                                    <i class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Configurar perfil
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Cerrar sesión
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="header-bebida">
+                        <h1 class="h3 mb-2 text-gray-800">Infusión de menta</h1>
+                        <i class="fas fa-fw fa-heart active"></i>
+                    </div>
+
+                    <div class="container-img-description">
+                        <div>
+                            <img src="img/provicional/menta.jpg">
+                        </div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laboriosam nostrum
+                                enim
+                                laborum ipsum voluptatibus, ipsam impedit iste? Quis sed, pariatur in ipsam vero
+                                consequatur voluptatum velit temporibus assumenda fuga!
+                                Quidem nobis eos debitis animi praesentium tempora, facilis corrupti explicabo qui
+                                similique placeat odio repudiandae. Pariatur debitis dignissimos quae sed consequuntur
+                                amet vero? Sit eum atque cupiditate ducimus, officiis minus.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container-carrito">
+                        <h2>Carrito de compra</h2>
+                        <div class="container-carrito-container-select">
+                            <input type="number" min="0" pattern="^[0-9]+" class="form-control form-control-user"
+                                placeholder="Cantidad del producto">
+                            <!-- <input type="number" min="1" pattern="^[0-9]+" placeholder="Cantidad del producto"> -->
+                        </div>
+                        <div class="btn btn-primary">
+                            Agregar al carrito
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container-calificar">
+                        <h2>Calificar producto</h2>
+                        <div class="container-calificar-stars">
+                            <i class="fa fa-star calificacion" id="calificacion1" aria-hidden="true" data-index="1"></i>
+                            <i class="fa fa-star calificacion" id="calificacion2" aria-hidden="true" data-index="2"></i>
+                            <i class="fa fa-star calificacion" id="calificacion3" aria-hidden="true" data-index="3"></i>
+                            <i class="fa fa-star calificacion" id="calificacion4" aria-hidden="true" data-index="4"></i>
+                            <i class="fa fa-star calificacion" id="calificacion5" aria-hidden="true" data-index="5"></i>
+                        </div>
+                        <div class="btn btn-primary btn-limpiar-calificacion">
+                            Limpiar calificacion
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container-promedio-calificacion">
+                        <h2>Promedio de calificacion del producto</h2>
+                        <div>
+                            <i class="fa fa-star active" aria-hidden="true"></i>
+                            <i class="fa fa-star active" aria-hidden="true"></i>
+                            <i class="fa fa-star active" aria-hidden="true"></i>
+                            <i class="fa fa-star active" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container-listado-comentarios">
+                        <h2>Listado de comentarios</h2>
+                        <div class="card shadow mb-4">
+                            <div class="card-header py-3 container-listado-tus-comentarios">
+                                <h6 class="m-0 font-weight-bold text-primary">Tus comentarios</h6>
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-body">
+                                <div class="card shadow mb-4">
+                                    <div class="card-header py-3 aling-right">
+                                        <i class="fa fa-trash" aria-hidden="true"></i>
+                                        <i class="fa fa-cog" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, aspernatur
+                                        ullam! Ab, fuga! Soluta repellendus autem deserunt odio ipsum esse, perferendis
+                                        similique qui quo, neque voluptas non placeat. Eius, culpa?
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card shadow mb-4">
+                            <div class="card-header py-3">
+                                <h6 class="m-0 font-weight-bold text-primary">Comentarios de otros usuarios</h6>
+                            </div>
+                            <div class="card-body">
+                                <div class="card shadow mb-4">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-primary aling-right">Juan Pablo Jimenez
+                                        </h6>
+                                    </div>
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minus alias unde
+                                        sequi ipsam laudantium autem reprehenderit consectetur nesciunt reiciendis,
+                                        officia, rerum cum odit quia molestiae illo distinctio consequuntur eaque.
+                                    </div>
+                                </div>
+                                <div class="card shadow mb-4">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-primary aling-right">Juan Pablo Jimenez
+                                        </h6>
+                                    </div>
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minus alias unde
+                                        sequi ipsam laudantium autem reprehenderit consectetur nesciunt reiciendis,
+                                        officia, rerum cum odit quia molestiae illo distinctio consequuntur eaque.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Argo Tea 2021</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

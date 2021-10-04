@@ -1,0 +1,16 @@
+.bg-nav-home {
+    background: #d0e6c7 !important;
+}
+
+.bg-nav-bar {
+    background: #51732F !important;
+}
+
+.nav-link {
+    margin: 1em 0;
+}
+
+.nav-link span, .nav-link i {
+    font-size: 1.2em !important;
+    cursor: pointer !important;
+}

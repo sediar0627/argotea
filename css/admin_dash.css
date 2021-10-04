@@ -1,0 +1,15 @@
+i.active {
+    color: #51732F;
+}
+
+.container-input-search {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+}
+
+.txt-search {
+    border: 2px solid #51732F !important;
+    background: #d0e6c7 !important;
+}
+
