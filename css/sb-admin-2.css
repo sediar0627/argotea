@@ -20,7 +20,7 @@
   --yellow: #f6c23e;
   --green: #1cc88a;
   --teal: #20c9a6;
-  --cyan: #36b9cc;
+  --cyan: #51732F;
   --white: #fff;
   --gray: #858796;
   --gray-dark: #5a5c69;
@@ -2338,7 +2338,7 @@ textarea.form-control {
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  /* box-shadow: 0 0 0 0.2rem #51732F; */
 }
 
 .btn.disabled, .btn:disabled {
@@ -2370,7 +2370,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #51732F;
   border-color: #51732F;
-  box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
+  /* box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5); */
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -3576,7 +3576,7 @@ input[type="button"].btn-block {
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 0.2rem #51732F;
 }
 
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
@@ -3721,7 +3721,7 @@ input[type="button"].btn-block {
 .custom-select:focus {
   border-color: #bac8f3;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 0.2rem #51732F;
 }
 
 .custom-select:focus::-ms-value {
@@ -3785,7 +3785,7 @@ input[type="button"].btn-block {
 
 .custom-file-input:focus ~ .custom-file-label {
   border-color: #bac8f3;
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 0.2rem #51732F;
 }
 
 .custom-file-input[disabled] ~ .custom-file-label,
@@ -3850,15 +3850,15 @@ input[type="button"].btn-block {
 }
 
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #51732F;
 }
 
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #51732F;
 }
 
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #51732F;
 }
 
 .custom-range::-moz-focus-outer {
@@ -4777,7 +4777,7 @@ input[type="button"].btn-block {
 .page-link:focus {
   z-index: 3;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 0.2rem #51732F;
 }
 
 .page-item:first-child .page-link {
