@@ -17,6 +17,7 @@
     background: linear-gradient(0deg, rgba(52, 64, 27, 1) 0%, rgba(81, 115, 47, 1) 52%, rgba(97, 140, 55, 1) 87%);
 }
 
+
 .card-body, .bg-login-image {
     height: 80vh !important;
 }

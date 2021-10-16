@@ -9,6 +9,7 @@ if (side_nav_status) {
   }
 }
 
+
 (function ($) {
   "use strict"; // Start of use strict
 
