@@ -40,6 +40,7 @@ $(document).ready(function () {
             for (let i = 5; i > index_seleccionado; i--) {
                 $("#calificacion" + i).css({ "color": "#858796" });
             }
+            
         } else {
             for (let i = 5; i >= 1; i--) {
                 $("#calificacion" + i).css({ "color": "#858796" });
