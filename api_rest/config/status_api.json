@@ -1,0 +1,52 @@
+{
+    "main": {
+        "main___sin_permisos":{
+            "status": "sin_permisos",
+            "message": "El usuario no tiene permisos para ejecutar la accion"
+        },
+        "main___bad_request":{
+            "status": "bad_request",
+            "message": "La peticion se esta realizando mal"
+        }
+    },
+    "auth": {
+        "is_auth___ok": {
+            "status": "ok",
+            "message": "Token valido"
+        }, 
+        "is_auth___unauthorized": {
+            "status": "unauthorized",
+            "message": "Token invalido"
+        }
+    },
+    "persona":{
+        "persona___encontrada_ok":{
+            "status": "ok",
+            "message": "Persona cargada correctamente"
+        },
+        "persona___encontrada_fail":{
+            "status": "persona_no_encontrada",
+            "message": "La persona no fue encontrada"
+        },
+        "persona___bad_request":{
+            "status": "bad_request",
+            "message": "La peticion se esta realizando mal"
+        },
+        "persona___sin_permisos":{
+            "status": "sin_permisos",
+            "message": "El usuario no tiene permisos para ejecutar la accion"
+        },
+        "persona___existe_persona":{
+            "status": "existe_persona",
+            "message": "Ya existe un usuario con esos datos"
+        },
+        "persona___token_invalido":{
+            "status": "token_invalido",
+            "message": "El token no coincide con el usario que realiza la accion"
+        },
+        "login___fail":{
+            "status": "fail",
+            "message": "Los datos de acceso no coinciden"
+        }
+    }
+}

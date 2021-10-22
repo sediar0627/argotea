@@ -1,0 +1,10 @@
+{
+    "version": "v1",
+    "secret_key": "argo_tea",
+    "algorithm": "HS256",
+    "format_date": "%Y-%m-%d %H:%M:%S.%f",
+    "days_expire": 0,
+    "hours_expire": 0,
+    "minutes_expire": 10,
+    "seconds_expire": 0
+}
